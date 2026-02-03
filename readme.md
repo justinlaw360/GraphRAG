@@ -22,7 +22,7 @@ The knowledge graph of the SOC services I am providing to the company.  Using LL
 * Platforms: Elasticsearch SIEM, JIRA, secure remote access (IPSec/SASE)
 * Log sources / tools: Firewalls, Imperva WAF, Akamai DDoS/WAF, F5, Microsoft Defender stack, AD/Entra, Trellix, Vectra NDR, Nozomi, Zscaler, OS logs, web servers, CyberArk, Symantec EPM, Tenable Nessus
 * Capabilities: 24×7 monitoring, detection engineering/use cases, threat intel, threat hunting, incident triage/response, quarantine via EDR, evidence collection, reporting; optional MDR, Vulnerability Management, on site OT support
-* Processes: Onboarding → UAT → Parallel run (Apr–Jun 2026) → Production launch (1 Jul 2026), BCP/DR (15 min recovery), audit & KPIs, SLA Management, exit & data return
+* Processes: Onboarding → UAT → Parallel run → Production launch, BCP/DR, audit & KPIs, SLA Management, exit & data return
 * Compliance: ISO/IEC 27001:2022, HK Protection of Critical Infrastructures Ordinance, IEC 62443, MITRE ATT&CK
 * SLA highlights: Availability, response SLAs by severity (15/30/60/180 mins), on site dispatch
 
