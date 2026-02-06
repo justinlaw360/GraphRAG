@@ -68,14 +68,14 @@ The GraphRAG takes advantage in several aera:
 * Disambiguates entities through graph context.
 * Maps relationships to clarify references.
 
-| Capability	| Conventional | RAG	| GraphRAG |
-
-Multi-hop reasoning	❌ Weak	✅ Strong
-Relationship awareness	❌ None	✅ High
-Explainability	❌ Limited	✅ Clear graph-based reasoning
-Retrieval quality	❓ Inconsistent for complex text	✅ Robust & structured
-Domain understanding	❌ Fragmented	✅ Deep contextual
-Scalability	⚠️ Cost increases linearly with documents	✅ Efficient via graph structure
-Best for	Simple Q&A, fact lookup	Complex, interconnected, analytical task
+| Capability	| Conventional RAG	| GraphRAG |
+|--|--|--|
+|Multi-hop reasoning	|❌ Weak	|✅ Strong|
+|Relationship awareness	|❌ None	|✅ High|
+|Explainability	|❌ Limited	|✅ Clear graph-based reasoning|
+|Retrieval quality	|❓ Inconsistent for complex text	|✅ Robust & structured|
+|Domain understanding	|❌ Fragmented	|✅ Deep contextual|
+|Scalability	|⚠️ Cost increases linearly with documents	|✅ Efficient via graph structure|
+|Best for	|Simple Q&A, fact lookup	|Complex, interconnected, analytical task|
 
 
