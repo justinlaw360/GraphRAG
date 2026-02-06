@@ -23,10 +23,10 @@ Building a knowledge graph is a complex undertaking. It requires collecting data
 
 A simple knowledge graph represents the SOC services that I provide to my company.  In the past, developing such a graph required several days of manual effort—from identifying entities to mapping relationships and labelling connections. With the support of large language models, however, the process has become significantly more efficient. An LLM can now generate a complete, well structured knowledge graph—with nodes, edges, and labels—in just minutes, transforming what was once a labor intensive task into a rapid, streamlined workflow.
 
+Below is the knowledge graph of the SOC services I am providing to the company.  Using LLM, it is amazingly easy to generate a knowledge graph with nodes and edges in a minute.  It normally took few days by hand in the past.  
 
 <img width="894" height="650" alt="image" src="https://github.com/user-attachments/assets/e7ce8442-3ad3-4207-9c66-0aaa9553a601" />
 
-The knowledge graph of the SOC services I am providing to the company.  Using LLM, it is amazingly easy to generate a knowledge graph with nodes and edges in a minute.  It normally took few days by hand in the past.  
 
 * Organizations: CompanyM, Contractor, SOC (HK-based), ISA, Subcontractors
 * Domains: IT Network, OT Network
