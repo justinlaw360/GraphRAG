@@ -86,8 +86,8 @@ Tree Index vs. GraphRAG: When to choose which?
 
 |Scenario	|Prefer Tree Index	|Prefer GraphRAG|
 |--|--|--|
-|Long, structured documents (policies	|Uses hierarchical summaries to locate the right chapters/sections efficiently. 	|—|
-|Multi hop, relational queries (who owns	|—	|Explicit entity relationship traversal across sources. |
+|Long, structured documents (policies runbooks, design specs)	|Uses hierarchical summaries to locate the right chapters/sections efficiently. 	|—|
+|Multi hop, relational queries (who‑owns‑what, cross‑asset dependencies, causal chains)	|—	|Explicit entity relationship traversal across sources. |
 |Time to value / Minimal modeling	|Faster: no schema/graph construction required. 	|Heavier lift: graph extraction and curation. |
 |Explainability	|Shows “which section → which chunk” via hierarchical path.	|Shows relationships among entities for traceable reasoning.|
 |Latency at scale	|Coarse to fine filtering often lowers average retrieval cost. 	|Can be costlier if graph traversal + community summaries are involved.|
