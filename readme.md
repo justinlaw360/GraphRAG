@@ -78,4 +78,17 @@ The GraphRAG takes advantage in several aera:
 |Scalability	|⚠️ Cost increases linearly with documents	|✅ Efficient via graph structure|
 |Best for	|Simple Q&A, fact lookup	|Complex, interconnected, analytical task|
 
+## Alternative: Tree Index ##
+
+A Tree Index organizes your corpus into a hierarchy of summaries. Leaf nodes hold fine grained chunks; internal nodes hold progressively more abstract summaries; the root captures a high level synthesis of the entire corpus. At query time, the system traverses from coarse to fine—first selecting relevant high level summaries, then drilling down into child nodes, and finally retrieving the most relevant leaf chunks to ground the LLM’s answer. This “progressive narrowing” avoids scanning the entire vector space for every query.
+
+Tree Index vs. GraphRAG: When to choose which?
+
+|Scenario	|Prefer Tree Index	|Prefer GraphRAG|
+|--|--|--|
+|Long, structured documents (policies	|Uses hierarchical summaries to locate the right chapters/sections efficiently. 	|—|
+|Multi hop, relational queries (who owns	|—	|Explicit entity relationship traversal across sources. |
+|Time to value / Minimal modeling	|Faster: no schema/graph construction required. 	|Heavier lift: graph extraction and curation. |
+|Explainability	|Shows “which section → which chunk” via hierarchical path.	|Shows relationships among entities for traceable reasoning.|
+|Latency at scale	|Coarse to fine filtering often lowers average retrieval cost. 	|Can be costlier if graph traversal + community summaries are involved.|
 
