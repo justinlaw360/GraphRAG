@@ -44,7 +44,7 @@ The Graph RAG is designed to enhance conventional RAG with Knowledge Graphs.  In
 The GraphRAG takes advantage in several aera:
 * Explicitly models relationships between entities (nodes and edges).
 * Supports multi-step, “A → B → C” reasoning across the graph.
-* Ideal for SOC, cybersecurity, legal, biomedical, or investigative questions where relational context is crucial.
+* Ideal for SOC, cybersecurity, investigative questions where relational context is crucial.
 * Produces traceable, relationship-aware evidence.
 * Allows the LLM to traverse entity neighborhoods rather than guess from independent chunks.
 * Enhances explainability—critical for InfoSec, auditability, and compliance workflows.
