@@ -2,12 +2,15 @@
 
 
 Generative AI (GenAI) models are trained on vast datasets composed primarily of publicly accessible information, including open-source publications, internet articles, social media content, and other public-domain materials. As a result, the outputs produced by these models are limited to general knowledge.
+
 Incorporating proprietary information—such as personal research notes or organization specific data—directly into a large language model would require retraining the model. However, this approach is both costly and operationally impractical, especially when updates occur frequently. Continuous retraining to reflect revisions or new internal documents is simply not feasible.
+
 To address this challenge, researchers advocate the use of Retrieval-Augmented Generation (RAG), an approach that enables AI models to access and leverage private or domain-specific information without the need for full model retraining.
 
 ## The RAG ##
 
 RAG allows generative AI models to access additional external knowledge bases, such as internal organizational data, scholarly journals and specialized datasets. By integrating relevant information into the generation process, chatbots and MCP agents can create more accurate domain-specific content without needing further training.
+
 In conventional RAG processes and pipelines, large documents will be chunked and break into smaller segments, and vectorization converts each chunk into an embedding for semantic search.  If you are interested to know more about RAG, you may read my another article in  https://github.com/justinlaw360/RAG: Retrieval-Augmented Generation using Azure OpenAI.
 
 However, chunking and vectorization cannot preserve well and even lose the relationship information between entities.   The relationship among data entities is important information for gen AI models to calculate the near similarities between the prompt (queries of users) and the relevant data (output or answer from chatbot).
