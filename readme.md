@@ -1,4 +1,4 @@
-# What is GraphRAG and why it matters?
+# Enhancing hallucination mitigation and accuracy through Knowledge Graph–based GraphRAG
 
 
 Generative AI (GenAI) models are trained on vast datasets composed primarily of publicly accessible information, including open-source publications, internet articles, social media content, and other public-domain materials. As a result, the outputs produced by these models are limited to general knowledge.
