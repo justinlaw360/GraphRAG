@@ -92,3 +92,6 @@ Tree Index vs. GraphRAG: When to choose which?
 |Explainability	|Shows “which section → which chunk” via hierarchical path.	|Shows relationships among entities for traceable reasoning.|
 |Latency at scale	|Coarse to fine filtering often lowers average retrieval cost. 	|Can be costlier if graph traversal + community summaries are involved.|
 
+## Conclusion ##
+
+Knowledge Graph methods used in RAG help to reduce hallucinations in LLMs and improve their performance and reliability. Researchers are putting more effort into fine-tune the models with task-specific data without training from scratch.   Very recently, there has been a shift towards studying the areas in Knowledge-Aware Inference, Knowledge Aware Learning, and Knowledge-Aware Validation to mitigate hallucinations and improve reasoning accuracy.  
